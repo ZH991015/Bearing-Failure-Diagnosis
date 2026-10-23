@@ -1,0 +1,16 @@
+# Dependencies for PhyGate-Net
+#
+# Tested with Python 3.11.15 and PyTorch 2.6.0+cu124
+# (D:\Anaconda\envs\torch_new\python.exe).
+# The code also runs under Python 3.8.13 / PyTorch 1.12.1+cu113 after removing
+# the weights_only argument from Trainer.load_checkpoint.
+#
+# Install the CUDA build that matches your driver, for example:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+
+torch>=1.13
+numpy
+h5py
+scikit-learn
+matplotlib
+seaborn

@@ -1,0 +1,14 @@
+# Training outputs
+checkpoints/
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editors
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
